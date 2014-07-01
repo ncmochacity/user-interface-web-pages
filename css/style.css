@@ -1,0 +1,139 @@
+*{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	margin:0;
+    padding:0;
+    min-height: 0;
+}
+h1,h2,body{
+	font-family:"Open Sans",sans-serif;
+	font-weight:300;
+}
+h2{
+	font-weight:800;
+	font-size:2em;
+}
+p{
+	font-size: 1.4em;
+}
+header{
+	width:auto;
+	padding:0px;
+	margin:0;
+	height:153px;
+}
+ #logo{
+	margin-left: 80px;
+	margin-top: 40px;
+}
+#lock{
+	margin-right: 4px;
+}
+.btn{
+	background-color: #C8C9C7;
+	display:block;
+	width:20%;
+	padding:10px 7px 10px 5px;
+	position:relative;
+	left:80px;
+	text-decoration: none;
+	text-align: center;
+	color:#666633;
+	font-weight: 400;
+}
+.greenbtn{
+	background-color: rgb(100, 204, 201);
+	display:block;
+	width:40%;
+	color:#666633;
+	position:relative;
+	top:-41px;
+	left:158px;
+	font-weight: 400;
+	padding:10px 20px 9px 20px;
+	text-decoration: none;
+}
+@media screen and (min-width:760px){
+	#logo{
+		margin-top:30px;
+		margin-left: 150px;
+	}
+	.btn{
+		width:8%;
+		position:relative;
+		display:block;
+		float:right;
+		left:-360px;
+		top:30px;
+	}
+	.greenbtn{
+		width:13%;
+		padding:10px 17px 9px 27px;
+		float:right;
+		top:30px;
+		display:block;
+		position:relative;
+		left:-50px;
+	}
+	.main{
+		height:300px;
+	}
+	.main .button{
+		width:20%;
+		display:block;
+		position:relative;
+		margin:5% auto;
+	}
+	.testimony hr{
+		position:relative;
+		left:110px;
+		width:84%;
+	}
+}
+.main{
+	background-color: #cccccc;
+}
+.main h1{
+	font-size:3em;
+	text-align: center;
+	color:#fff;
+	font-weight: 800;
+}
+.main h3{
+	font-size:1.7em;
+	text-align: center;
+}
+.button{
+	background-color: rgb(100, 204, 201);
+	display:block;
+	width:68%;
+	position:relative;
+	top:5px;
+	color:#666;
+	padding:10px 20px 9px 20px;
+	left:50px;
+	text-decoration: none;
+	font-weight:400;
+	text-align: center;
+}
+.green{
+	background-color: rgb(64, 193, 172);
+	
+}
+.icon{
+	text-align: center;
+}
+.icon span{
+	display:block;
+	text-align: center;
+	font-size:1.7em;
+}
+hr{
+	color:#666;
+	border:3px solid #666;
+	width:70%;
+	position:relative;
+	left:50px;
+	
+}
