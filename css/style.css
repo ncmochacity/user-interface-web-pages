@@ -4,7 +4,7 @@
 	-moz-box-sizing:border-box;
 	margin:0;
     padding:0;
-    min-height: 0;
+   
 }
 h1,h2,body{
 	font-family:"Open Sans",sans-serif;
@@ -77,18 +77,35 @@ header{
 		left:-50px;
 	}
 	.main{
-		height:300px;
+		height:740px;
+	}
+	.main img{
+		margin:0 auto;
+		display:block;
+		text-align: center;
+		margin-bottom: 40px;
 	}
 	.main .button{
 		width:20%;
 		display:block;
 		position:relative;
 		margin:5% auto;
+		left:-10px;
 	}
 	.testimony hr{
 		position:relative;
 		left:110px;
 		width:84%;
+	}
+	.action p{
+		display:block;
+		position:relative;
+		top:20px;
+	}
+	.action .actionbtn{
+		position:relative;
+		top:-50px;
+		width:38%;
 	}
 }
 .main{
@@ -98,16 +115,21 @@ header{
 	font-size:3em;
 	text-align: center;
 	color:#fff;
+	margin-top: 20px;
 	font-weight: 800;
 }
 .main h3{
 	font-size:1.7em;
+	margin-top: 30px;
 	text-align: center;
+}
+.main img{
+	margin-top: 30px;
 }
 .button{
 	background-color: rgb(100, 204, 201);
 	display:block;
-	width:68%;
+	width:68%; 
 	position:relative;
 	top:5px;
 	color:#666;
@@ -136,4 +158,73 @@ hr{
 	position:relative;
 	left:50px;
 	
+}
+.bottom{
+	padding:20px;
+}
+p.author, p.small{
+	text-align: center;
+}
+p.author:before{
+	content:" ";
+	background: url("../img/left.png");
+	width:42px;
+	height:65px;
+	display:block;
+	position:absolute;
+	left:-50px;
+	top:50px;
+	margin-left:30px;
+}
+p.author:after{
+	content:" ";
+	background: url("../img/right.png");
+	width:42px;
+	height:65px;
+	display:block;
+	position:absolute;
+	right:-30px;
+	top:50px;
+	margin-right:10px;
+}
+p.author{
+	padding:30px;
+	font-size: 1.7em;
+
+	margin-right: 30px;
+}
+p.small{
+	color:#a8a8a8;
+}
+.action h1{
+	font-weight:800;
+	font-size: 3em;
+	text-align: center;
+	color:#fff;
+	margin-top:160px;
+}
+.action{
+	background-color:#333;
+	height:auto;
+	padding:0;
+	margin:0;
+}
+.action p{
+	color:#999;
+	text-align: center;
+	margin-top: 20px;
+}
+.actionbtn{
+	background-color: rgb(100, 204, 201);
+	display:block;
+	width:58%; 
+	position:relative;
+	top:5px;
+	color:#666;
+	padding:19px 20px 19px 20px;
+	margin:13% auto;
+	text-decoration: none;
+	font-weight:400;
+	text-align: center;
+
 }
